@@ -31,3 +31,61 @@ ul,
 li {
 	list-style: none;
 }
+
+.slide {
+	color: brown;
+	font-size: 3rem;
+}
+h2 {
+	text-align: center;
+	padding: 125px 0px;
+	font-weight: 800;
+	font-size: 3rem;
+}
+
+.person img {
+	width: 125px;
+	border-radius: 50%;
+	height: 125px;
+	object-fit: cover;
+}
+
+.person {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	text-align: center;
+}
+
+.person-name {
+	text-transform: uppercase;
+	color: brown;
+	padding-top: 20px;
+}
+
+.person-title {
+	text-transform: capitalize;
+	padding-bottom: 20px;
+}
+.quote {
+	margin-top: 20px;
+	font-size: 3rem;
+	color: brown;
+}
+.button-click {
+	justify-content: space-between;
+	display: flex;
+}
+.button-click button {
+	/* margin: 10px 100px; */
+	padding: 5px 10px;
+	background: lightblue;
+}
+
+.quote-description {
+	padding-top: 20px;
+	width: 90%;
+	margin: auto;
+}
